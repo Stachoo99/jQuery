@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+/*header*/
+.main-nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: #000;
+    width: 100%;
+    transition: all 0.4s;
+    z-index: 1;
+}
+.main-nav.after-fix {
+    background-color: rgba(0,0,0,0.6);
+}
+
+#first {
+    height: 50vh;
+    background-color: blue;
+}
+
+#first p {
+    margin: 0;
+    color: #FFF;
+}
+
+.append_inner {
+    color: blue;
+}
+
+#css_method p {
+    color: blue;
+    font-size: 20px;
+}
+
+#kilka_zdarzen {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 150px;
+}
+
+#metody_fade > div {
+    height: 300px;
+    background-color: red;
+}
+
